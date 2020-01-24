@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FireBase Countdown</title>
+
+    <!-- Firebase Reference -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
+
+     <!-- jQuery -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Style (Minor) -->
+    <style>
+        body{
+            text-align: center;
+            margin-top: 25px;
+            background-color: darkslateblue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>You only have 
+        <span id="click-value"></span> Clicks to go!
+    </h1>
+    
+    <button id="click-button"> Click to Countdown </button>
+    <button id="restart-button"> Restart Counter </button>
+
+    <hr>
+
+
+</body>
+</html>
